@@ -1,0 +1,169 @@
+[
+  {
+    "title": "SIM-IE",
+    "category": "Engineering",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "Biomedical Engineering Virtual Simulation & Digital Twin Learning Platform. Developing project-based learning through interactive virtual laboratories, equipment simulations and digital twin environments.",
+    "tags": [
+      "Unity",
+      "Simulation",
+      "Biomedical Engineering"
+    ],
+    "mark": "S",
+    "featured": true
+  },
+  {
+    "title": "SimServ / Code Blue",
+    "category": "Engineering",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "A Unity simulation game for biomedical engineering students to explore medical equipment and service-engineering work in a virtual hospital radiology department.",
+    "tags": [
+      "Unity",
+      "Service Engineering",
+      "3D"
+    ],
+    "mark": "↗",
+    "featured": true
+  },
+  {
+    "title": "Skin modelling for melanoma thermography",
+    "category": "Research",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "A 2D skin model exploring the effect of skin roughness on melanoma detection during infrared thermography, using COMSOL Multiphysics and the Pennes bioheat equation.",
+    "tags": [
+      "COMSOL",
+      "Pennes bioheat",
+      "Thermography"
+    ],
+    "mark": "≈",
+    "featured": true
+  },
+  {
+    "title": "PAEIS",
+    "category": "Research",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "An AI-driven framework for continuous learner modelling and adaptive exam preparation, using response patterns, mastery, misconceptions and examination behaviour.",
+    "tags": [
+      "AI",
+      "Learning analytics",
+      "Individual project"
+    ],
+    "mark": "P",
+    "featured": true
+  },
+  {
+    "title": "XAI-STEM",
+    "category": "Ventures",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "An explainable AI framework intended to help STEM teachers identify learner needs, personalize instruction and make data-informed decisions through interpretable recommendations.",
+    "tags": [
+      "XAI",
+      "Education",
+      "Product"
+    ],
+    "mark": "X",
+    "featured": false
+  },
+  {
+    "title": "Connector.global",
+    "category": "Ventures",
+    "year": "2025—",
+    "status": "Ongoing",
+    "description": "An educational ecosystem focused on reducing educational isolation through partnerships, global opportunities, research-backed programs and collaboration.",
+    "tags": [
+      "Education",
+      "Project direction",
+      "SDG 4"
+    ],
+    "mark": "C",
+    "featured": true
+  },
+  {
+    "title": "3D Skin Capillary Model",
+    "category": "Research",
+    "year": "2026—",
+    "status": "Ongoing",
+    "description": "An individual MATLAB project developing a 3D skin capillary model for more realistic simulation studies related to skin cancer and melanoma detection.",
+    "tags": [
+      "MATLAB",
+      "Computational modelling"
+    ],
+    "mark": "∿",
+    "featured": false
+  },
+  {
+    "title": "P300 Speller Data Analysis",
+    "category": "Research",
+    "year": "2026",
+    "status": "Completed",
+    "description": "BCI hackathon project analyzing P300 speller data collected from five healthy subjects using an 8-channel Unicorn Brain Interface at 250 Hz.",
+    "tags": [
+      "BCI",
+      "Signal processing",
+      "g.tec"
+    ],
+    "mark": "P3",
+    "featured": false
+  },
+  {
+    "title": "Virtual Simulation Platform — IBFT’26",
+    "category": "Creative",
+    "year": "2026",
+    "status": "Presented",
+    "description": "Prepared and presented a solo project on a collaborative virtual simulation platform for biomedical engineering education at IBFT’26 (SSUET & UTM).",
+    "tags": [
+      "Presentation",
+      "Simulation",
+      "Education"
+    ],
+    "mark": "V",
+    "featured": false
+  },
+  {
+    "title": "GABA Education website UI/UX",
+    "category": "Creative",
+    "year": "2025",
+    "status": "Completed",
+    "description": "Led a two-person team working on user experience improvements for an existing education website.",
+    "tags": [
+      "UI/UX",
+      "Design",
+      "Team direction"
+    ],
+    "mark": "G",
+    "featured": false
+  },
+  {
+    "title": "Hearing aid circuit design",
+    "category": "Engineering",
+    "year": "2025",
+    "status": "Completed",
+    "description": "Team-led basic hearing aid circuit design for sound amplification and noise reduction, applying amplifiers, filters and sound-signal concepts.",
+    "tags": [
+      "Circuit design",
+      "Filters",
+      "Electronics"
+    ],
+    "mark": "♫",
+    "featured": false
+  },
+  {
+    "title": "ESP32 Mini Drone",
+    "category": "Engineering",
+    "year": "2025",
+    "status": "Completed",
+    "description": "A four-propeller 3D-printed drone built using an ESP32 microcontroller and MPU6050 sensor over five months.",
+    "tags": [
+      "ESP32",
+      "MPU6050",
+      "Prototyping"
+    ],
+    "mark": "✳",
+    "featured": false
+  }
+]
