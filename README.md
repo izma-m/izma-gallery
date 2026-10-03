@@ -1,37 +1,20 @@
-# IZMA. — Personal Archive
+# Izma Mohammad — portfolio site
 
-A responsive, editorial-minimalist personal gallery built with plain HTML, CSS and JavaScript for GitHub Pages. No build tools or dependencies are required.
+A responsive, static HTML/CSS/JS portfolio designed for GitHub Pages.
 
-## Preview locally
-Because the gallery reads `data/projects.json` with `fetch`, open the folder through a local server rather than double-clicking `index.html`.
-- VS Code: install/use Live Server, then choose **Open with Live Server**.
-- Or run `python -m http.server 8000` in this folder and visit `http://localhost:8000`.
+## Files
+- `index.html`: home
+- `biomedical.html`, `ventures.html`, `education.html`, `design.html`, `hosting.html`: portfolio sections
+- `css/style.css`: styling
+- `js/main.js`: mobile navigation and footer year
 
 ## Publish on GitHub Pages
-1. Create a new **public** repository, for example `izma-gallery`.
-2. Upload the contents of this folder (not the enclosing folder) to the repository root. `index.html` must be at the root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose branch `main`, folder `/(root)`, then Save.
-6. Wait for the deployment to finish. Your site will be at `https://YOUR-USERNAME.github.io/izma-gallery/`.
+1. Download and unzip this folder.
+2. In your existing `izma-gallery` GitHub repository, upload the **contents** of this folder (not the outer folder) to the repository root, replacing the old site files.
+3. Keep the repository’s Pages source set to the `main` branch and `/ (root)` if that is how your current site is published.
+4. Check the GitHub Pages URL on desktop and phone before connecting the custom domain.
 
-GitHub Pages publishes static files. The `.nojekyll` file is included. Official guide: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+No build step or framework is required. External font loading uses Google Fonts; system fallbacks are included.
 
-## Add or edit an entry
-Edit `data/projects.json`. Copy an object and change its fields:
-- `title`, `category`, `year`, `status`, `description`, `tags`, `mark`
-- Optional `url`: adds a “Visit project” link in the detail popup.
-Allowed categories currently used by the filters: `Engineering`, `Research`, `Ventures`, `Creative`.
-
-Use relative image paths if you later add image support. Keep images in `assets/images/`. Do not add confidential, unpublished, patient, or personally identifying research data to a public repository.
-
-## Customize
-- Colors, typography, spacing: `css/style.css` (CSS variables at the top).
-- Mobile layout: `css/responsive.css`.
-- Homepage content: `index.html`.
-- About page: `about.html`.
-- Gallery cards, search and detail popup: `js/gallery.js`.
-- Navigation and modal behavior: `js/main.js`.
-
-## Important
-This is a public-facing starter archive, not a private storage space. Verify personal contact details and project descriptions before publishing. The CV content is summarized and should be reviewed for accuracy. The site currently uses typographic artwork placeholders rather than project photographs; replace them with images you own or have permission to use.
+## Personalization still needed
+The Hosting page is intentionally an empty archive until event names, dates, roles, descriptions, and approved media are supplied. Design work can also be expanded with approved screenshots.
